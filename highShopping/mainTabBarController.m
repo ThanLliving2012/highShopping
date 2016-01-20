@@ -34,7 +34,7 @@
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     
     [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
-
+    NSLog(@"github_2.0");
     //设置导航栏图标颜色，如系统自动的返回箭头
     self.navigationController.navigationBar.tintColor =[UIColor whiteColor];
 
