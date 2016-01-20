@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714FC1CD1C19622C00555B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714FC1CC1C19622C00555B31 /* main.m */; };
+		714FC1D01C19622C00555B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714FC1CF1C19622C00555B31 /* AppDelegate.m */; };
+		714FC1D31C19622C00555B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714FC1D21C19622C00555B31 /* ViewController.m */; };
+		714FC1D61C19622C00555B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714FC1D41C19622C00555B31 /* Main.storyboard */; };
+		714FC1D91C19622D00555B31 /* highShopping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714FC1D71C19622D00555B31 /* highShopping.xcdatamodeld */; };
+		714FC1DB1C19622D00555B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714FC1DA1C19622D00555B31 /* Assets.xcassets */; };
+		71511DCA1C3125B3007DD763 /* cartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71511DC91C3125B3007DD763 /* cartViewController.m */; };
+		71511DCD1C3125CD007DD763 /* personViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71511DCC1C3125CD007DD763 /* personViewController.m */; };
+		71511DCF1C3267CB007DD763 /* categoryCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71511DCE1C3267CB007DD763 /* categoryCellView.xib */; };
+		71511DD21C32724B007DD763 /* productListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71511DD11C32724B007DD763 /* productListViewController.m */; };
+		715778461C2BF0B6001A3DFD /* productView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715778451C2BF0B6001A3DFD /* productView.xib */; };
+		715778501C2CD909001A3DFD /* loadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715778491C2CD909001A3DFD /* loadingView.m */; };
+		715778511C2CD909001A3DFD /* NSString+dealString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7157784B1C2CD909001A3DFD /* NSString+dealString.m */; };
+		715778521C2CD909001A3DFD /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7157784D1C2CD909001A3DFD /* UIImage+Resize.m */; };
+		715778531C2CD909001A3DFD /* UIView+viewEffections.m in Sources */ = {isa = PBXBuildFile; fileRef = 7157784F1C2CD909001A3DFD /* UIView+viewEffections.m */; };
+		715778611C310B4A001A3DFD /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715778601C310B4A001A3DFD /* secondViewController.m */; };
+		715778671C311DEE001A3DFD /* mainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715778661C311DEE001A3DFD /* mainTabBarController.m */; };
+		717F152B1C23AE4A003289D1 /* UnitMetiodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F152A1C23AE4A003289D1 /* UnitMetiodManager.m */; };
+		717F153D1C23B6BE003289D1 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15301C23B6BD003289D1 /* TAAbstractDotView.m */; };
+		717F153E1C23B6BE003289D1 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15321C23B6BD003289D1 /* TAAnimatedDotView.m */; };
+		717F153F1C23B6BE003289D1 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15341C23B6BD003289D1 /* TADotView.m */; };
+		717F15401C23B6BE003289D1 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15361C23B6BD003289D1 /* TAPageControl.m */; };
+		717F15411C23B6BE003289D1 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15381C23B6BD003289D1 /* SDCollectionViewCell.m */; };
+		717F15421C23B6BE003289D1 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F153A1C23B6BD003289D1 /* SDCycleScrollView.m */; };
+		717F15431C23B6BE003289D1 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F153C1C23B6BE003289D1 /* UIView+SDExtension.m */; };
+		717F15491C23F0D0003289D1 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15461C23F0D0003289D1 /* RxWebViewController.m */; };
+		717F154A1C23F0D0003289D1 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F15481C23F0D0003289D1 /* RxWebViewNavigationViewController.m */; };
+		717F15501C23F355003289D1 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F154D1C23F355003289D1 /* NJKWebViewProgress.m */; };
+		717F15511C23F355003289D1 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F154F1C23F355003289D1 /* NJKWebViewProgressView.m */; };
+		86AFD9E5574ACE2F7C72DB3D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D1D7E58286C4BA92B4A2C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16D1BDF975F73350DE6060BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		714FC1C81C19622C00555B31 /* highShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714FC1CC1C19622C00555B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		714FC1CE1C19622C00555B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		714FC1CF1C19622C00555B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		714FC1D11C19622C00555B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		714FC1D21C19622C00555B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		714FC1D51C19622C00555B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714FC1D81C19622D00555B31 /* highShopping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = highShopping.xcdatamodel; sourceTree = "<group>"; };
+		714FC1DA1C19622D00555B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		714FC1DF1C19622D00555B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714FC1E61C196EAA00555B31 /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		714FC1E71C196EAA00555B31 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		714FC1E81C196EAA00555B31 /* VendorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		71511DC81C3125B3007DD763 /* cartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartViewController.h; sourceTree = "<group>"; };
+		71511DC91C3125B3007DD763 /* cartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cartViewController.m; sourceTree = "<group>"; };
+		71511DCB1C3125CD007DD763 /* personViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personViewController.h; sourceTree = "<group>"; };
+		71511DCC1C3125CD007DD763 /* personViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personViewController.m; sourceTree = "<group>"; };
+		71511DCE1C3267CB007DD763 /* categoryCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = categoryCellView.xib; sourceTree = "<group>"; };
+		71511DD01C32724B007DD763 /* productListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productListViewController.h; sourceTree = "<group>"; };
+		71511DD11C32724B007DD763 /* productListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productListViewController.m; sourceTree = "<group>"; };
+		715778451C2BF0B6001A3DFD /* productView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = productView.xib; sourceTree = "<group>"; };
+		715778481C2CD909001A3DFD /* loadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadingView.h; sourceTree = "<group>"; };
+		715778491C2CD909001A3DFD /* loadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadingView.m; sourceTree = "<group>"; };
+		7157784A1C2CD909001A3DFD /* NSString+dealString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+dealString.h"; sourceTree = "<group>"; };
+		7157784B1C2CD909001A3DFD /* NSString+dealString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+dealString.m"; sourceTree = "<group>"; };
+		7157784C1C2CD909001A3DFD /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7157784D1C2CD909001A3DFD /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7157784E1C2CD909001A3DFD /* UIView+viewEffections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+viewEffections.h"; sourceTree = "<group>"; };
+		7157784F1C2CD909001A3DFD /* UIView+viewEffections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewEffections.m"; sourceTree = "<group>"; };
+		7157785F1C310B4A001A3DFD /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		715778601C310B4A001A3DFD /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		715778651C311DEE001A3DFD /* mainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTabBarController.h; sourceTree = "<group>"; };
+		715778661C311DEE001A3DFD /* mainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTabBarController.m; sourceTree = "<group>"; };
+		717F15271C23A0A6003289D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		717F15291C23AE4A003289D1 /* UnitMetiodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitMetiodManager.h; sourceTree = "<group>"; };
+		717F152A1C23AE4A003289D1 /* UnitMetiodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitMetiodManager.m; sourceTree = "<group>"; };
+		717F152F1C23B6BD003289D1 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		717F15301C23B6BD003289D1 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		717F15311C23B6BD003289D1 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		717F15321C23B6BD003289D1 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		717F15331C23B6BD003289D1 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		717F15341C23B6BD003289D1 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		717F15351C23B6BD003289D1 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		717F15361C23B6BD003289D1 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		717F15371C23B6BD003289D1 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		717F15381C23B6BD003289D1 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		717F15391C23B6BD003289D1 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		717F153A1C23B6BD003289D1 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		717F153B1C23B6BE003289D1 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		717F153C1C23B6BE003289D1 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		717F15451C23F0D0003289D1 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
+		717F15461C23F0D0003289D1 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
+		717F15471C23F0D0003289D1 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		717F15481C23F0D0003289D1 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
+		717F154C1C23F355003289D1 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		717F154D1C23F355003289D1 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		717F154E1C23F355003289D1 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		717F154F1C23F355003289D1 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		892D1D7E58286C4BA92B4A2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5E2A1B342E359A16EA8B88 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714FC1C51C19622C00555B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AFD9E5574ACE2F7C72DB3D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714FC1BF1C19622C00555B31 = {
+			isa = PBXGroup;
+			children = (
+				714FC1CA1C19622C00555B31 /* highShopping */,
+				714FC1C91C19622C00555B31 /* Products */,
+				8F6DC86AADA8ED92B9B2469E /* Pods */,
+				E8EC6878A13FB074BC0148C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		714FC1C91C19622C00555B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714FC1C81C19622C00555B31 /* highShopping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714FC1CA1C19622C00555B31 /* highShopping */ = {
+			isa = PBXGroup;
+			children = (
+				717F15441C23EA66003289D1 /* webView */,
+				717F152C1C23B6A7003289D1 /* publicClass */,
+				717F15281C23AE30003289D1 /* customeClass */,
+				714FC1E51C196DDA00555B31 /* Macro */,
+				714FC1CE1C19622C00555B31 /* AppDelegate.h */,
+				714FC1CF1C19622C00555B31 /* AppDelegate.m */,
+				714FC1D11C19622C00555B31 /* ViewController.h */,
+				714FC1D21C19622C00555B31 /* ViewController.m */,
+				7157785F1C310B4A001A3DFD /* secondViewController.h */,
+				715778601C310B4A001A3DFD /* secondViewController.m */,
+				71511DC81C3125B3007DD763 /* cartViewController.h */,
+				71511DC91C3125B3007DD763 /* cartViewController.m */,
+				71511DCB1C3125CD007DD763 /* personViewController.h */,
+				71511DCC1C3125CD007DD763 /* personViewController.m */,
+				71511DD01C32724B007DD763 /* productListViewController.h */,
+				71511DD11C32724B007DD763 /* productListViewController.m */,
+				714FC1D41C19622C00555B31 /* Main.storyboard */,
+				714FC1DA1C19622D00555B31 /* Assets.xcassets */,
+				714FC1DF1C19622D00555B31 /* Info.plist */,
+				714FC1D71C19622D00555B31 /* highShopping.xcdatamodeld */,
+				714FC1CB1C19622C00555B31 /* Supporting Files */,
+				717F15271C23A0A6003289D1 /* PrefixHeader.pch */,
+				715778451C2BF0B6001A3DFD /* productView.xib */,
+				715778651C311DEE001A3DFD /* mainTabBarController.h */,
+				715778661C311DEE001A3DFD /* mainTabBarController.m */,
+				71511DCE1C3267CB007DD763 /* categoryCellView.xib */,
+			);
+			path = highShopping;
+			sourceTree = "<group>";
+		};
+		714FC1CB1C19622C00555B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714FC1CC1C19622C00555B31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714FC1E51C196DDA00555B31 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				714FC1E61C196EAA00555B31 /* constant.h */,
+				714FC1E71C196EAA00555B31 /* UtilsMacro.h */,
+				714FC1E81C196EAA00555B31 /* VendorMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		715778471C2CD909001A3DFD /* categorys */ = {
+			isa = PBXGroup;
+			children = (
+				715778481C2CD909001A3DFD /* loadingView.h */,
+				715778491C2CD909001A3DFD /* loadingView.m */,
+				7157784A1C2CD909001A3DFD /* NSString+dealString.h */,
+				7157784B1C2CD909001A3DFD /* NSString+dealString.m */,
+				7157784C1C2CD909001A3DFD /* UIImage+Resize.h */,
+				7157784D1C2CD909001A3DFD /* UIImage+Resize.m */,
+				7157784E1C2CD909001A3DFD /* UIView+viewEffections.h */,
+				7157784F1C2CD909001A3DFD /* UIView+viewEffections.m */,
+			);
+			name = categorys;
+			path = "my tool";
+			sourceTree = "<group>";
+		};
+		717F15281C23AE30003289D1 /* customeClass */ = {
+			isa = PBXGroup;
+			children = (
+				715778471C2CD909001A3DFD /* categorys */,
+				717F15291C23AE4A003289D1 /* UnitMetiodManager.h */,
+				717F152A1C23AE4A003289D1 /* UnitMetiodManager.m */,
+			);
+			path = customeClass;
+			sourceTree = "<group>";
+		};
+		717F152C1C23B6A7003289D1 /* publicClass */ = {
+			isa = PBXGroup;
+			children = (
+				717F152D1C23B6BD003289D1 /* SDCycleScrollView */,
+			);
+			path = publicClass;
+			sourceTree = "<group>";
+		};
+		717F152D1C23B6BD003289D1 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				717F152E1C23B6BD003289D1 /* PageControl */,
+				717F15371C23B6BD003289D1 /* SDCollectionViewCell.h */,
+				717F15381C23B6BD003289D1 /* SDCollectionViewCell.m */,
+				717F15391C23B6BD003289D1 /* SDCycleScrollView.h */,
+				717F153A1C23B6BD003289D1 /* SDCycleScrollView.m */,
+				717F153B1C23B6BE003289D1 /* UIView+SDExtension.h */,
+				717F153C1C23B6BE003289D1 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		717F152E1C23B6BD003289D1 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				717F152F1C23B6BD003289D1 /* TAAbstractDotView.h */,
+				717F15301C23B6BD003289D1 /* TAAbstractDotView.m */,
+				717F15311C23B6BD003289D1 /* TAAnimatedDotView.h */,
+				717F15321C23B6BD003289D1 /* TAAnimatedDotView.m */,
+				717F15331C23B6BD003289D1 /* TADotView.h */,
+				717F15341C23B6BD003289D1 /* TADotView.m */,
+				717F15351C23B6BD003289D1 /* TAPageControl.h */,
+				717F15361C23B6BD003289D1 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		717F15441C23EA66003289D1 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				717F154B1C23F355003289D1 /* NJKWebViewProgress */,
+				717F15451C23F0D0003289D1 /* RxWebViewController.h */,
+				717F15461C23F0D0003289D1 /* RxWebViewController.m */,
+				717F15471C23F0D0003289D1 /* RxWebViewNavigationViewController.h */,
+				717F15481C23F0D0003289D1 /* RxWebViewNavigationViewController.m */,
+			);
+			name = webView;
+			sourceTree = "<group>";
+		};
+		717F154B1C23F355003289D1 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				717F154C1C23F355003289D1 /* NJKWebViewProgress.h */,
+				717F154D1C23F355003289D1 /* NJKWebViewProgress.m */,
+				717F154E1C23F355003289D1 /* NJKWebViewProgressView.h */,
+				717F154F1C23F355003289D1 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		8F6DC86AADA8ED92B9B2469E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16D1BDF975F73350DE6060BB /* Pods.debug.xcconfig */,
+				FF5E2A1B342E359A16EA8B88 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8EC6878A13FB074BC0148C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892D1D7E58286C4BA92B4A2C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714FC1C71C19622C00555B31 /* highShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714FC1E21C19622D00555B31 /* Build configuration list for PBXNativeTarget "highShopping" */;
+			buildPhases = (
+				55006185853F8F3DFE647683 /* Check Pods Manifest.lock */,
+				714FC1C41C19622C00555B31 /* Sources */,
+				714FC1C51C19622C00555B31 /* Frameworks */,
+				714FC1C61C19622C00555B31 /* Resources */,
+				2C8CF9A2F2B2885CFD79E267 /* Embed Pods Frameworks */,
+				E73C84EFC73C97EB38C2EAAF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = highShopping;
+			productName = highShopping;
+			productReference = 714FC1C81C19622C00555B31 /* highShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714FC1C01C19622C00555B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "周磊";
+				TargetAttributes = {
+					714FC1C71C19622C00555B31 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7R7SN6XZ9X;
+					};
+				};
+			};
+			buildConfigurationList = 714FC1C31C19622C00555B31 /* Build configuration list for PBXProject "highShopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714FC1BF1C19622C00555B31;
+			productRefGroup = 714FC1C91C19622C00555B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714FC1C71C19622C00555B31 /* highShopping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714FC1C61C19622C00555B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715778461C2BF0B6001A3DFD /* productView.xib in Resources */,
+				714FC1DB1C19622D00555B31 /* Assets.xcassets in Resources */,
+				714FC1D61C19622C00555B31 /* Main.storyboard in Resources */,
+				71511DCF1C3267CB007DD763 /* categoryCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8CF9A2F2B2885CFD79E267 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55006185853F8F3DFE647683 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E73C84EFC73C97EB38C2EAAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714FC1C41C19622C00555B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714FC1D31C19622C00555B31 /* ViewController.m in Sources */,
+				717F153E1C23B6BE003289D1 /* TAAnimatedDotView.m in Sources */,
+				717F153D1C23B6BE003289D1 /* TAAbstractDotView.m in Sources */,
+				717F15411C23B6BE003289D1 /* SDCollectionViewCell.m in Sources */,
+				715778511C2CD909001A3DFD /* NSString+dealString.m in Sources */,
+				715778521C2CD909001A3DFD /* UIImage+Resize.m in Sources */,
+				715778671C311DEE001A3DFD /* mainTabBarController.m in Sources */,
+				714FC1D91C19622D00555B31 /* highShopping.xcdatamodeld in Sources */,
+				717F152B1C23AE4A003289D1 /* UnitMetiodManager.m in Sources */,
+				717F153F1C23B6BE003289D1 /* TADotView.m in Sources */,
+				717F15491C23F0D0003289D1 /* RxWebViewController.m in Sources */,
+				71511DD21C32724B007DD763 /* productListViewController.m in Sources */,
+				717F154A1C23F0D0003289D1 /* RxWebViewNavigationViewController.m in Sources */,
+				717F15431C23B6BE003289D1 /* UIView+SDExtension.m in Sources */,
+				717F15501C23F355003289D1 /* NJKWebViewProgress.m in Sources */,
+				715778501C2CD909001A3DFD /* loadingView.m in Sources */,
+				71511DCD1C3125CD007DD763 /* personViewController.m in Sources */,
+				717F15421C23B6BE003289D1 /* SDCycleScrollView.m in Sources */,
+				714FC1D01C19622C00555B31 /* AppDelegate.m in Sources */,
+				715778611C310B4A001A3DFD /* secondViewController.m in Sources */,
+				714FC1CD1C19622C00555B31 /* main.m in Sources */,
+				717F15401C23B6BE003289D1 /* TAPageControl.m in Sources */,
+				71511DCA1C3125B3007DD763 /* cartViewController.m in Sources */,
+				717F15511C23F355003289D1 /* NJKWebViewProgressView.m in Sources */,
+				715778531C2CD909001A3DFD /* UIView+viewEffections.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		714FC1D41C19622C00555B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714FC1D51C19622C00555B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714FC1E01C19622D00555B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		714FC1E11C19622D00555B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714FC1E31C19622D00555B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D1BDF975F73350DE6060BB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/highShopping/PrefixHeader.pch";
+				INFOPLIST_FILE = highShopping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoqi.kaola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		714FC1E41C19622D00555B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5E2A1B342E359A16EA8B88 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JiaJia Yan (7R7SN6XZ9X)";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/highShopping/PrefixHeader.pch";
+				INFOPLIST_FILE = highShopping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoqi.kaola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "36b3e632-214f-43a6-9e8f-4a28bd2f10f0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714FC1C31C19622C00555B31 /* Build configuration list for PBXProject "highShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714FC1E01C19622D00555B31 /* Debug */,
+				714FC1E11C19622D00555B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714FC1E21C19622D00555B31 /* Build configuration list for PBXNativeTarget "highShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714FC1E31C19622D00555B31 /* Debug */,
+				714FC1E41C19622D00555B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		714FC1D71C19622D00555B31 /* highShopping.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				714FC1D81C19622D00555B31 /* highShopping.xcdatamodel */,
+			);
+			currentVersion = 714FC1D81C19622D00555B31 /* highShopping.xcdatamodel */;
+			path = highShopping.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 714FC1C01C19622C00555B31 /* Project object */;
+}
